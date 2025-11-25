@@ -1,4 +1,4 @@
-# Proximity Detection – Projeto Final (Arduino + FreeRTOS)
+# Projeto Final (Arduino + FreeRTOS)
 
 Este projeto implementa um sistema de detecção de proximidade utilizando:
 
