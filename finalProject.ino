@@ -82,7 +82,7 @@ void TaskButton(void *pvParameters) {
     if ((millis() - lastDebounceTime) > debounceDelay) {
       if (reading != stableState) {
 
-        // Borda de subida → toggle LED1
+        // Borda de subida -> toggle LED1
         if (reading == HIGH) {
           led1Enabled = !led1Enabled;
           Serial.print("LED1 agora está: ");
@@ -117,7 +117,7 @@ void TaskSonar(void *pvParameters) {
     if (duration == 0) {
       distanciaAtual = -1; // fora do range
     } else {
-      distanciaAtual = duration * 0.034 / 2; // fórmula oficial
+      distanciaAtual = duration * 0.034 / 2;
     }
 
     Serial.print("Distância: ");
